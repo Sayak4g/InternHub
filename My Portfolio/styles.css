@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+}
+
+header .logo p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about .about-content {
+    display: flex;
+    align-items: center;
+}
+
+#about .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#about .bio {
+    max-width: 600px;
+}
+
+#projects {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#projects .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#projects .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#projects .project h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+}
